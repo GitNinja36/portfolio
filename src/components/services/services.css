@@ -8,6 +8,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1); 
     background-color: var(--container-color);
     padding: 6rem 0 2rem 2.5rem;
+    border-radius: 1.5rem;
 }
 .services__icon{ 
     display: block; 
@@ -113,6 +114,9 @@
     .services__container{
         grid-template-columns: repeat(3, 218px);
     }
+    .services__content{
+        border-radius: 1.5rem;
+    }
 }
     
 /* For medium devices */
@@ -126,6 +130,9 @@
     .services__icon{
         font-size: 1.5rem;
     }
+    .services__content{
+        border-radius: 1.5rem;
+    }
 }
     
 @media screen and (max-width: 576px) {
@@ -134,6 +141,9 @@
     }
     .services__modal-description{
         padding: 0;
+    }
+    .services__content{
+        border-radius: 1.5rem;
     }
 }
     
