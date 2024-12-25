@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import { ToastContainer } from 'react-toastify';
 import "./Contact.css"
-
+import { handleSuccess, handleError } from '../../util';
 
 function Contact() {
     const form = useRef();
@@ -16,10 +16,12 @@ function Contact() {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+            handleSuccess(" mail send successfully");
+            console.log('SUCCESS!');
         },
         (error) => {
-          console.log('FAILED...', error.text);
+            handleError(" FAILED to send mail");
+            console.log('FAILED...', error.text);
         },
       )
       e.target.reset();
@@ -130,7 +132,7 @@ function Contact() {
             </div>
 
         </div>
-
+        <ToastContainer/>
     </section>
   )
 }
