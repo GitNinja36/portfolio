@@ -29,7 +29,7 @@ function Contact() {
 
 
   return (
-    <section className="contact section">
+    <section className="contact section" id="contact">
         <h2 className="section__title">Get in touch</h2>
         <span className="section__subtitle">Contact Me</span>
 
@@ -52,10 +52,10 @@ function Contact() {
                     <div className="contact__card">
                         <i className="bx bxl-whatsapp contact__card-icon"></i>
 
-                        <h3 className="contact__card-title">Whatsapp</h3>
-                        <span className="contact__card-data">999-888-777</span>
-                        <a href="" className="contact__button">
-                            write me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                        <h3 className="contact__card-title">Twitter</h3>
+                        <span className="contact__card-data">Dracoo_36</span>
+                        <a href="https://x.com/Dracoo_36" className="contact__button">
+                            text me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
 
@@ -64,7 +64,7 @@ function Contact() {
 
                         <h3 className="contact__card-title">Discord</h3>
                         <span className="contact__card-data">zexgero</span>
-                        <a href="" className="contact__button">
+                        <a href="https://discord.com" className="contact__button">
                             write me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
