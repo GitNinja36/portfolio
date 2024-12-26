@@ -17,7 +17,7 @@ function About(){
                     <Info/>
 
                     <p className="about__description">
-                        Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
+                    Freelance full-stack developer specializing in crafting scalable web applications and seamless UI/UX designs. I create innovative, efficient, and client-focused solutions that bring ideas to life
                     </p>
 
                     <a 

@@ -52,7 +52,7 @@ function Qualification() {
 
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title"> web Developer</h3>
+                        <h3 className="qualification__title"> Education</h3>
                         <span className="qualification__subtitle"> NIT Durgapur</span>
                         <div className="qualification__calender">
                             <i className="uil uil-calendar-alt"></i> 2022 - Present
@@ -73,10 +73,10 @@ function Qualification() {
                     </div>
 
                     <div>
-                        <h3 className="qualification__title">Art Director</h3>
-                        <span className="qualification__subtitle"> NIT Durgapur</span>
+                        <h3 className="qualification__title">Education</h3>
+                        <span className="qualification__subtitle"> DAV public school</span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> 2022 - Present
+                            <i className="uil uil-calendar-alt"></i> 2020 - 2021
                         </div>
                     </div>
                 </div>
@@ -84,9 +84,9 @@ function Qualification() {
                 <div className="qualification__data">
                     <div>
                         <h3 className="qualification__title"> Education</h3>
-                        <span className="qualification__subtitle"> BRL DAV public</span>
+                        <span className="qualification__subtitle"> DAV public school</span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                            <i className="uil uil-calendar-alt"></i> 2018 - 2019
                         </div>
                     </div>
                     <div>
@@ -95,7 +95,7 @@ function Qualification() {
                     </div>
                 </div>
 
-                <div className="qualification__data">
+                {/* <div className="qualification__data">
                     <div></div>
 
                     <div>
@@ -110,7 +110,7 @@ function Qualification() {
                             <i className="uil uil-calendar-alt"></i> 2018 - 2019
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
@@ -124,7 +124,7 @@ function Qualification() {
 
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title"> web Developer</h3>
+                        <h3 className="qualification__title"> Web Developer</h3>
                         <span className="qualification__subtitle"> NIT Durgapur</span>
                         <div className="qualification__calender">
                             <i className="uil uil-calendar-alt"></i> 2022 - Present
@@ -145,8 +145,8 @@ function Qualification() {
                     </div>
 
                     <div>
-                        <h3 className="qualification__title">Art Director</h3>
-                        <span className="qualification__subtitle"> NIT Durgapur</span>
+                        <h3 className="qualification__title">UI/UX Designer</h3>
+                        <span className="qualification__subtitle"> NIT Durgapur </span>
                         <div className="qualification__calender">
                             <i className="uil uil-calendar-alt"></i> 2022 - Present
                         </div>
@@ -155,15 +155,31 @@ function Qualification() {
 
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title"> Education</h3>
-                        <span className="qualification__subtitle"> BRL DAV public</span>
+                        <h3 className="qualification__title">Event Coordinator</h3>
+                        <span className="qualification__subtitle">AAROHAN</span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                            <i className="uil uil-calendar-alt"></i> 2022 - present
                         </div>
                     </div>
                     <div>
                         <span className="qualification__rounder"></span>
                         <span className="qualification__line"></span>
+                    </div>
+                </div>
+
+                <div className="qualification__data">
+                    <div></div>
+
+                    <div>
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                    </div>
+                    <div>
+                        <h3 className="qualification__title">Editor</h3>
+                        <span className="qualification__subtitle">AAROHAN</span>
+                        <div className="qualification__calender">
+                            <i className="uil uil-calendar-alt"></i> 2022 - Present
+                        </div>
                     </div>
                 </div>
 
